@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Generated output files (users will generate their own)
+VLA_GitHub_Repos.md
+vla_repos.json
+
+# Temporary files
+/tmp/
+*.tmp
+*.log
