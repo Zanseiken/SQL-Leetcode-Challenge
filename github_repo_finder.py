@@ -190,8 +190,8 @@ class GitHubRepoFinder:
     
     def export_to_json(self, repos: List[Dict], filename: str = 'vla_repos.json'):
         """Export results to JSON file."""
-        with open(filename, 'w') as f:
-            json.dump(repos, f, indent=2)
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(repos, f, indent=2, ensure_ascii=False)
         print(f"✓ Results exported to {filename}")
 
 
